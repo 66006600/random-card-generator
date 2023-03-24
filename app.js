@@ -5,7 +5,7 @@ function carta () {
     
     let palo = pintas[Math.floor(Math.random() * pintas.length)];
     let valor = valores[Math.floor(Math.random() * valores.length)];
-    console.log
+    
 
     document.getElementsByTagName("h2").innerHtml = palo;
     document.getElementsByTagName("h1").innerHtml = valor;
