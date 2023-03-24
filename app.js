@@ -13,7 +13,6 @@ window.onload = function carta() {
     resultado2.innerHtml = valores[getRandomInt(valores.length)];
 
     
-
-
-
 }
+
+
