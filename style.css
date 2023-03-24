@@ -4,8 +4,10 @@ body {
 .Card {
     
     background-color: rgb(225, 226, 242);
+    border-style: solid, grey;
+    border-radius: 10px;
     height: 75vh;
-    width: 65vh;
+    width: 60vh;
     margin: 25%;
 }
 .Header {
