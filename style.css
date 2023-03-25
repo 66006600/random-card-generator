@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(92, 212, 150);
+    background-color: rgb(92, 212, 124);
 }
 .Card {
     
-    background-color: rgb(225, 226, 242);
+    background-color: rgb(221, 223, 239);
     border-style: solid, grey;
     border-radius: 10px;
     height: 75vh;
@@ -27,8 +27,13 @@ h1 {
 }
 .Footer {
     text-align-last: right;
-    padding-right: 20px;
+    padding-right: 30px;
     
+}
+p {
+    font-size: 1100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align-last: center;
 }
 
 

@@ -1,18 +1,31 @@
 window.onload = function carta() {
 
    
-    let pintas = ["Diamantes", "Corazones", "Picas", "Clubes"];
+    let pintas = ["♦"," ♥ ", "♠" , "♣"];
+
     let valores = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Rey", "Reina", "As"];
     
-   
-      
-    var resultado1 = document.getElementById("h2");
-    resultado1.innerHtml = pintas[getRandomInt(pintas.length)];
 
-    var resultado2 = document.getElementById("h1");
-    resultado2.innerHtml = valores[getRandomInt(valores.length)];
+    const resultP = document.getElementsByTagName("h2");  
+    resultP.innerHtml = pintas[getRandom(pintas.length)];
+    console.log(pintas[getRandom(pintas.length)]);
+
+
+    const resultV = document.getElementsById("#Numero");
+    resultV.textContent = valores[getRandom(valores.length)];
+    console.log(valores[getRandom(valores.length)]);
+
+    function getRandom(max) {
+        return Math.floor(Math.random() * max);
+      }
+     
 
     
-}
+};
+
+     
+
+    
+
 
 
