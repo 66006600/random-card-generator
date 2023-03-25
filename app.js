@@ -1,18 +1,18 @@
 window.onload = function carta() {
 
    
-    let pintas = ["♦"," ♥ ", "♠" , "♣"];
+    let suits = ["♦"," ♥ ", "♠" , "♣"];
 
     let valores = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Rey", "Reina", "As"];
     
 
-    const resultP = document.getElementsByTagName("h2");  
-    resultP.innerHtml = pintas[getRandom(pintas.length)];
-    console.log(pintas[getRandom(pintas.length)]);
+    const h2 = document.getElementsByTagName("h2");
+    h2.innerText = suits[getRandom(suits.length)];
+    console.log(h2.innerText);
 
 
-    const resultV = document.getElementsById("#Numero");
-    resultV.textContent = valores[getRandom(valores.length)];
+    const p = document.getElementsByTagName("p");
+    p.innerText = valores[getRandom(valores.length)];
     console.log(valores[getRandom(valores.length)]);
 
     function getRandom(max) {
