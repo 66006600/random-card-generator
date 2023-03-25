@@ -1,42 +1,25 @@
 window.onload = function carta() {
+  let suits = ["♦", " ♥ ", "♠", "♣"];
 
-   
-    let suits = ["♦"," ♥ ", "♠" , "♣"];
+  let valores = ["2","3","4","5","6","7","8","9","10","Rey","Reina",
+    "As",
+  ];  
 
-    let valores = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Rey", "Reina", "As"];
-    
+  const h2 = document.getElementsByTagName("h2");
+  const suit = suits[getRandom(suits.length)];
+  h2[0].innerText = suit;
+  h2[1].innerText = suit;
+  console.log(h2.innerText);
 
-    const h2 = document.getElementsByTagName("h2");
-    const suit = suits[getRandom(suits.length)];
-    h2[0].innerText = suit
-    h2[1].innerText = suit
-    console.log(h2.innerText);
+  let redHeart = document.getElementsByTagName("h2");
 
-    let redHeart = document.getElementsByTagName("h2");
+  const p = document.getElementsByTagName("p");
+  p[0].innerText = valores[getRandom(valores.length)];
+  console.log(p[0].innerText);
 
-    function rojo() {
-      if (document.getElementsByTagName("h2"),suits=[1]){
-        x.style.color = "red";
-
-      }
-    }
-
-
-    const p = document.getElementsByTagName("p");
-    p[0].innerText = valores[getRandom(valores.length)];
-    console.log(p[0].innerText);
-
-    function getRandom(max) {
-        return Math.floor(Math.random() * max);
-      }
-     
-
-    
-};
-
-     
-
-    
-
-
+  function getRandom(max) {
+    return Math.floor(Math.random() * max);
+  }
+}
+let intervalID = setInterval(carta, 500);
 
