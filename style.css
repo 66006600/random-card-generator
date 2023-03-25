@@ -5,9 +5,10 @@ body {
     background-color: rgb(221, 223, 239);
     border-style: solid, grey;
     border-radius: 10px;
-    height: 75vh;
-    width: 60vh;
+    height: 70vh;
+    width: 55vh;
     margin: 25%;
+   
 }
 .Header {
     padding-left: 20px;
@@ -15,19 +16,26 @@ body {
 
 }
 #Numero {
-    height: 60%;   
-}
+    height: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
 
 .Footer {
     text-align-last: right;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     
 }
 p {
-    font-size: 1100%;
+    font-size: 80px;
     font-family: 'Times New Roman', Times, serif;
     text-align-last: center;
+    padding-right: 5%;
+    padding-left: 5%;
     
 }
 
