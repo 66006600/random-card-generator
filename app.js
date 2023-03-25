@@ -7,13 +7,24 @@ window.onload = function carta() {
     
 
     const h2 = document.getElementsByTagName("h2");
-    h2.innerText = suits[getRandom(suits.length)];
+    const suit = suits[getRandom(suits.length)];
+    h2[0].innerText = suit
+    h2[1].innerText = suit
     console.log(h2.innerText);
+
+    let redHeart = document.getElementsByTagName("h2");
+
+    function rojo() {
+      if (document.getElementsByTagName("h2"),suits=[1]){
+        x.style.color = "red";
+
+      }
+    }
 
 
     const p = document.getElementsByTagName("p");
-    p.innerText = valores[getRandom(valores.length)];
-    console.log(valores[getRandom(valores.length)]);
+    p[0].innerText = valores[getRandom(valores.length)];
+    console.log(p[0].innerText);
 
     function getRandom(max) {
         return Math.floor(Math.random() * max);

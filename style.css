@@ -2,7 +2,6 @@ body {
     background-color: rgb(92, 212, 124);
 }
 .Card {
-    
     background-color: rgb(221, 223, 239);
     border-style: solid, grey;
     border-radius: 10px;
@@ -16,18 +15,13 @@ body {
 
 }
 #Numero {
-    height: 70%;   
+    height: 60%;   
 }
 
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    font-size: 50px;
-}
 .Footer {
     text-align-last: right;
-    padding-right: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     
 }
 p {
@@ -36,5 +30,6 @@ p {
     text-align-last: center;
     
 }
+
 
 
