@@ -1,4 +1,6 @@
-window.onload = function carta() {
+window.onload = setInterval(carta,10000);
+
+function carta() {
   let suits = ["♦", " ♥ ", "♠", "♣"];
 
   let valores = ["2","3","4","5","6","7","8","9","10","Rey","Reina",
@@ -21,5 +23,5 @@ window.onload = function carta() {
     return Math.floor(Math.random() * max);
   }
 }
-let intervalID = setInterval(carta, 500);
+
 
