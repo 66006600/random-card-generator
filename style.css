@@ -3,7 +3,7 @@ body {
 }
 .Card {
     background-color: rgb(221, 223, 239);
-    border-style: solid, grey;
+    border-style: solid, rgb(99, 97, 97);
     border-radius: 10px;
     height: 70vh;
     width: 55vh;
@@ -30,7 +30,7 @@ body {
     
 }
 p {
-    font-size: 80px;
+    font-size: 90px;
     font-family: 'Times New Roman', Times, serif;
     text-align-last: center;
     padding-right: 5%;
